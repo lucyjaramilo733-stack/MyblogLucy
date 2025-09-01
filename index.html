@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo-container">
+            <img src="logoSena.png" alt="Logo SENA" class="logo">
+        </div>
+        <div class="titulo1">
+            <h1>My Personal Blog</h1>
+            <p>My activities during my learning process</p>
+        </div>
+    </header>
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <nav id="main-nav">
+        <a href="#" class="active" onclick="showSection('home', this)">Home</a>
+        <a href="#" onclick="showSection('entrevista', this)">Videos & Audios</a>
+        <a href="#" onclick="showSection('brochure', this)">Brochure & Document</a>
+        <a href="#" onclick="showSection('map', this)">Mind Map PLE</a>
+        <a href="#" onclick="showSection('punished', this)">Crime & Punishment</a>
+        <a href="#" onclick="showSection('critical', this)">Critical Thinking</a>
+        <a href="#" onclick="showSection('learning', this)">Learning</a>
+    </nav>
+
+    <!-- CONTENT SECTIONS -->
+    <main>
+        <section id="home" class="content-section active">
+            <h2>Welcome to my English learning adventure!</h2>
+            <div class="welcome">
+                <p>
+                    This blog is more than just a collection of exercises: it's the story of my growth and my passion
+                    for learning English.
+                </p>
+                <p>
+                    My mission is to make learning English practical, dynamic, and fun. I want this space to be not only
+                    a record of my progress, but also an inspiration for those who believe that learning a new language
+                    can open doors, create opportunities, and connect us to the world.
+                </p>
+
+                <p>
+                    Join me on this journey! Let's learn, practice, and grow together: one word, one phrase, one
+                    experience at a time.
+                </p>
+
+            </div>
+        </section>
+
+        <section id="entrevista" class="content-section">
+            <h2>Videos & Audios</h2>
+
+            <div class="activity-container">
+                <div class="text-content">
+                    <h3>Video introducing my son</h3>
+                    <p>
+                        Making this video presentation about my son was a very meaningful experience. It allowed me to
+                        practice English while describing a very important person in my life. Thanks to this activity, I
+                        learned to clearly use vocabulary related to personal information, hobbies, likes, and dislikes.
+                    </p>
+                </div>
+                <div class="media-content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/--t48bNjPPA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="activity-container reverse">
+                <div class="media-content">
+                    <h3>Lucy Estefany Izquierdo Jaramillo interviewing</h3>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SBcHvVGYmtk?si=JNwg6L9UhAY7mZzv"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <h3>Alejandro Sepúlveda Duarte interviewing</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SBcHvVGYmtk?si=qKXpFit1JxJfZbTb"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="text-content">
+                    <h3>Activity: virtual interview</h3>
+                    <p>
+                        In this activity, I had to record a virtual interview with the help of a classmate. The task was
+                        to simulate a job interview for a position related to my professional profile. I first
+                        participated as the applicant, and then we switched roles so I also acted as the interviewer.
+                    </p>
+                    <p><strong>During the interview, I was asked to answer the following questions:</strong></p>
+                    <ul>
+                        <li>Tell us about yourself.</li>
+                        <li>What motivates you?</li>
+                        <li>What are your hobbies?</li>
+                        <li>What are your future plans if you get this job?</li>
+                        <li>What are your future goals or what are your career goals?</li>
+                        <li>What do you see as a major success in your life?</li>
+                        <li>Why did you leave your last job?</li>
+                        <li>Where do you see yourself in 5 years?</li>
+                    </ul>
+                    <p>
+                        This exercise was very useful for practicing work-related vocabulary, improving fluency when
+                        answering professional questions, and gaining confidence when expressing myself in English
+                        during a job interview.
+                    </p>
+                </div>
+            </div>
+
+            <div class="activity-container">
+                <div class="text-content">
+                    <h3>My Audio Activity</h3>
+                    <p>
+                        Recording this audio was a very enriching experience for my English learning. It gave me the
+                        opportunity to practice speaking about my academic and professional journey, my current
+                        responsibilities, and my future goals in a structured way.
+                    </p>
+                    <p>
+                        This practice helped me understand how to express different possibilities and decisions
+                        depending on the situation.
+                    </p>
+                </div>
+                <div class="media-content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z07l6b02wQQ?si=gvAAN_T8gX_hhTxE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="brochure" class="content-section">
+            <h2>Brochure and Document</h2>
+            <div class="brochure-content">
+
+                <div class="text-content">
+                    <h3>Brochure</h3>
+                    <p>
+                        In this activity, I had to design a brochure in English that described the main information and
+                        key features of my training program. To do this, I used the digital tool Canva, which allowed me
+                        to creatively combine text, images, and design. This made the brochure not only informative but
+                        also visually appealing and professional.
+                    </p>
+
+                </div>
+                <div class="brochure-link">
+                    <a href="brochure.pdf" target="_blank">
+                        <img src="brochure.jpg" alt="Miniatura del Folleto">
+                        <p><strong>Click here or on the image to view the brochure</strong></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="document-container">
+                <div class="text-content">
+                    <h3>Written document</h3>
+                    <p>
+                        In this activity, I practiced writing a formal email in English to apply for a job. I also
+                        described the position, highlighted my skills, explained what I could contribute to the company,
+                        and added my personal information.
+                    </p>
+                </div>
+                <div class="link-content">
+                    <a href="document.pdf" target="_blank">
+                        <img src="empleoCorreo.jpg" alt="Miniatura del Documento">
+                        <p><strong>Click here or on the image to view the document</strong></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="map" class="content-section">
+            <h2>My Mind Map</h2>
+
+            <div class="document-container reverse">
+                <div class="link-content">
+                    <a href="ple.pdf" target="_blank">
+                        <img src="ple.png" alt="Miniatura del mapa">
+                        <p><strong>Click here or on the image to view the mind map</strong></p>
+                    </a>
+                </div>
+                <div class="text-content">
+                    <p>
+                        In this activity, I designed a mind map to represent my Personal Learning Environment (PLE). The
+                        element shows the strategies and tools I use to learn a language.
+                    </p>
+                    <p>
+                        I created the map with Canva, which allowed me to organize the information clearly and
+                        creatively.
+                        This experience helped me reflect on how I can manage my learning and apply it to my
+                        professional life.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="punished" class="content-section">
+            <h2>Vocabulary about Crimes and Punishments</h2>
+
+            <div class="text-content">
+                <p>
+                    Learning vocabulary about crimes and punishments is very useful, as it not only helps us understand
+                    news, movies, and books, but also provides us with the right words to describe situations related to
+                    law and justice.
+                </p>
+
+                <p>
+                    The word "crime" refers to an illegal act, such as theft, murder, or fraud. Punishment, on the other
+                    hand, is the penalty a person receives after being convicted, such as paying a fine, going to
+                    prison, or performing community service. Both terms are essential when discussing the legal system.
+                </p>
+
+                <h3>There are many types of crimes, and each has specific vocabulary. For example:</h3>
+                <ul class="examples-list">
+
+                    <li><strong>Armed robbery:</strong> A thief broke into a home at night and stole valuables.</li>
+                    <li><strong>Shoplifting:</strong> A teenager was caught stealing from a clothing store.</li>
+                    <li><strong>Cybercrime:</strong> Hackers were arrested for cybercrime after stealing online banking
+                        information.</li>
+                    <li><strong>Kidnapping:</strong> Police rescued a businessman after an attempted kidnapping.</li>
+                    <li><strong>Drug trafficking:</strong> Several people were arrested for drug trafficking near the
+                        border.</li>
+                </ul>
+                <p>These examples show how each word describes a different type of illegal activity.</p>
+
+                <p>
+                    Vocabulary for punishments is equally important because it illustrates the consequences of breaking
+                    the law. Some examples are:
+                </p>
+                <ul class="examples-list">
+
+                    <li><strong>Fine:</strong> She had to pay a fine for illegal parking.</li>
+                    <li><strong>Community service:</strong> She performed community service after being convicted of
+                        vandalism.
+                    </li>
+                    <li><strong>Life sentence:</strong> The offender was sentenced to life in prison for murder.</li>
+                    <li><strong>House arrest:</strong> The young offender remained under house arrest for six months.
+                    </li>
+                </ul>
+                <p>
+                    These expressions show the range of penalties, from light to very serious.
+                </p>
+
+                <p>
+                    In legal situations, we often find this vocabulary in questions and commands used by criminals and
+                    police officers. For example:
+                </p>
+                <ul class="examples-list">
+                    <li>A criminal might ask, "May I call my lawyer?" or "What are my rights?"</li>
+                    <li>
+                        A police officer might say, "You are under arrest" or "Please get out of the car."
+                    </li>
+                </ul>
+
+                <h3>Vocabulary related to crimes can also be used in different grammatical structures, such as direct
+                    and indirect speech:</h3>
+                <p>
+                    Direct speech: “A thief stole my purse.”
+                </p>
+                <p>
+                    Indirect speech: “She said a thief had stolen her purse.”
+                </p>
+                <p>
+                    This demonstrates that learning the words isn't enough; we also need to practice using them in
+                    context.
+                </p>
+
+                <p>
+                    In conclusion, studying vocabulary about crimes and punishments expands our English skills by
+                    providing
+                    us with precise words to describe illegal actions, legal processes, and justice. It connects
+                    language
+                    learning to real-life situations, making our communication more precise and effective.
+                </p>
+            </div>
+        </section>
+
+        <section id="critical" class="content-section">
+            <h2>Critical Thinking and Media Literacy</h2>
+            <div class="content-container">
+                <p>
+                    Mass media surrounds us daily through television, newspapers, films, the internet, advertisements,
+                    and more. Each form of media communicates a message, whether explicit or hidden, and these messages
+                    influence how we see the world. To fully understand media texts, critical thinking is essential.
+                    Critical thinking involves analyzing information beyond its surface, questioning hidden intentions,
+                    and evaluating arguments to arrive at informed conclusions.
+                </p>
+
+                <p>
+                    Media literacy extends critical thinking by teaching us to “read” media texts more deeply. This
+                    means taking a second look at what we see or hear to uncover underlying meanings. Media often
+                    simulates reality through special effects, editing, or persuasive techniques, making fictional or
+                    manipulated content appear real. Developing media literacy allows individuals to recognize these
+                    strategies and avoid being misled or manipulated by them.
+                </p>
+
+                <p>
+                    Media messages are never neutral. Each text has a purpose whether to inform, entertain, persuade, or
+                    profit and is designed for a specific audience defined by factors such as age, gender, lifestyle,
+                    and values. Advertisers, for example, use strategies like identification, generalization, emotional
+                    appeal, and celebrity endorsement to connect with audiences and influence their choices. Similarly,
+                    news or documentaries may claim objectivity, but every story is shaped by the perspective of its
+                    creator.
+                </p>
+
+                <p>
+                    Ultimately, interpreting media depends on the audience. Media texts express values, ideologies, and
+                    intentions, and viewers must actively question and evaluate these messages. By asking who created
+                    the text, what techniques are used, what ideologies are represented, and what the author’s
+                    objectives are, individuals can form their own conclusions. Media literacy empowers people to
+                    interpret messages critically, rather than simply accepting what they are told to believe.
+                </p>
+
+
+            </div>
+        </section>
+
+        <section id="learning" class="content-section">
+            <h2>My learning</h2>
+            <div class="content-container">
+                <p>
+                    This blog has been a valuable experience in my English learning process. By completing the different
+                    activities, I was able to practice writing, reading, and understanding new vocabulary. Each task
+                    helped me gain confidence and apply English in real-life situations, which is essential for my
+                    academic and professional growth.
+                </p>
+                <p>
+                    Thanks to this work, I not only improved my language skills but also strengthened my ability to
+                    express ideas more clearly and precisely. I consider this project an important step toward achieving
+                    fluency and continuing to develop my communication skills in English.
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Student information</h3>
+                <p><strong>Name:</strong> Lucy Estefany Izquierdo Jaramillo</p>
+                <p><strong>Institution:</strong> Servicio Nacional de Aprendizaje – SENA</p>
+                <p><strong>Campus:</strong> Centro del Comercio Regional Antioquia</p>
+                <p><strong>Program:</strong> Technologist in Software Development</p>
+                <p><strong>Instructor:</strong> Sandra Patricia Cuadros Anaya</p>
+            </div>
+
+            <div class="footer-section">
+                <img src="logoSena.png" alt="Logo SENA">
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 – All Rights Reserved, made by Lucy Estefany Izquierdo Jaramillo</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="blog.js"></script>
+
+</body>
+
+</html>
