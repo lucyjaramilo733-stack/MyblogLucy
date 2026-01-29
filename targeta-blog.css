@@ -1,0 +1,60 @@
+
+.blog-post-card {
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  /* 1. Definir el radio de borde */
+  border-radius: 12px;
+  /* 2. ¡CLAVE!: Cortar el contenido que sobresale (como la imagen) */
+  overflow: hidden; 
+  /* 3. Sombra para que se note el borde redondeado */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+}
+
+.post-img {
+  /* 4. Que la imagen llene el ancho total */
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  /* 5. El borde inferior que pedía el otro punto */
+  border-bottom: 1px solid #eee;
+  display: block;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-title {
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  margin: 0 0 10px 0;
+  color: rgb(54, 49, 49);
+}
+
+.post-excerpt {
+  font-family: sans-serif;
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+  
+}
+
+.read-more {
+  display: inline-block;
+  background-color: rgb(20, 179, 190);
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.read-more:hover {
+  background-color: #0bb451;
+  display: flexbox;
+}
